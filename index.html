@@ -2,29 +2,191 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kindergarten Class Website Assignment</title>
+
+    <style>
+        table, th, td{
+            border: 4px solid gray;
+            border-style: groove;
+            border-collapse: collapse;
+            margin: auto;}
+        td{
+            padding: 10px;}
+    </style>
+    <
+    <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Sunshine Kindergartoen</h1>
-        <nav>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+
+    <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo"> <img src="logo.jpg" alt="" srcset="">Sunshine Kindergarten</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#schedule">Weekly schedule</a>
+            <a href="#gallery"> Gallery Photos</a>
+            <a href="#Annoucment">Announcements</a>
+            <a href="#teacher">Teachers</a>
         </nav>
-    </header>
-    <main>
+    </header> <!-- ends for header section -->
 
-    </main>
-    <footer>
 
-    </footer>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>welcome to our <span>Kindergarten</span></h3>
+            <p>Sunshine Kindergarten, a fun and informative webpage for
+                their classroom. providing important information and showcasing student activities </p>
+            <a href="#" class="btn">Start Join</a>
+        </div>
+
+        <div class="image"><img src="home.png" alt=""></div>
+        </section><!-- section home end -->
+
+
+    <!-- Weekly schedule section -->
+    <section class="schedule" id="schedule">
+        <h1 class="heading">our <span> Weekly schedule </span></h1>
+
+        <table>
+            <tr>
+                <th>Day|Time</th>
+                <th>8:30-9:30</th>
+                <th>9:30-10:30</th>
+                <th>10:30-11:00</th>
+                <th>11:00-12:30</th>
+                <th>12:30-1:00</th>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td>ENG</td>
+                <td>Math</td>
+                <td rowspan="5">Lunch</td>
+                <td>Fun</td>
+                <td>HAH</td>
+            </tr>
+            <tr>
+              <th>Monday</th> 
+              <td>ENG</td>
+              <td>Math</td>
+              <td>Fun</td>
+              <td>HAH</td> 
+            </tr>
+            <tr>
+              <th>Tuesday</th> 
+              <td>ENG</td>
+                <td>Math</td>
+                <td>Fun</td>
+                <td>HAH</td> 
+            </tr>
+            <tr>
+              <th>Wednesday</th>
+              <td>ENG</td>
+                <td>Math</td>
+                <td>Fun</td>
+                <td>HAH</td>   
+            </tr>
+            <tr>
+              <th>Thursday</th>  
+              <td>ENG</td>
+                <td>Math</td>
+                <td>Fun</td>
+                <td>HAH</td> 
+            </tr>
+        </table><!-- section ends -->
+
+
+    <!-- gallery section starts -->
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">our <span>gallery</span></h1>
+
+        <div class="gallery-container">
+                <img src="class.jpeg" alt="">
+                <img src="1.jpg" alt="">
+                <img src="photo1.jpg" alt="">
+                <img src="photo2.jpg" alt="">
+                <img src="2.jpg" alt="">
+                <img src="photo4.jpg" alt="">
+        </div>
+        </section><!-- section ends -->
     
+
+    <!-- Annoucment section starts -->
+    <section class="Annoucment">
+        <h1 class="heading">our <span>Announcements</span></h1>
+
+        
+    </section><!-- section ends -->
+
+
+    <!-- Teachers Information section start -->
+    <section class="teacher" id="teacher">
+        <h1 class="heading">our <span> teacher</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="teach1.jpg" alt="">
+                <h3>Mariam Ali</h3>
+                <p>Math Teacher</p> 
+                <h2>Pno. 34987645</h2>
+                <h2>email. MA@gmail.com</h2>  
+            </div>
+
+            <div class="box">
+                <img src="teach2.jpg" alt="">
+                <h3>Yasmeen Noah</h3>
+                <p>Arabic Teacher</p>
+                <h2>Pno. 34987645</h2>
+                <h2>email. YN@gmail.com</h2> 
+            </div>
+
+            <div class="box">
+                <img src="teach3.jpg" alt="">
+                <h3>Jihan Imran</h3>
+                <p>instructor</p>
+                <h2>Pno. 34987645</h2>
+                <h2>email. JI@gmail.com</h2> 
+            </div>
+
+        </div>
+    </section><!-- section ends -->
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3> <i class="fas fa-school"></i> Kindergarten </h3>
+                <p>a fun and informative webpage for
+                    their classroom. providing important information and showcasing student activities</p>
+            </div>
+
+            <div class="box">
+                <h3>important links</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> parent Page</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> school calendar</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> lunch menu</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> academics</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> admissions</a>
+            </div>
+
+            <div class="box">
+                <h3>category</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> about us</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> news & events</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> contact us</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> privacy policy</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> FAQs</a> 
+            </div>
+        </div>
+        <div class="credit"> &copy; 2024 by <span>Sunshine</span></div>
+    </section><!-- section ends -->
+
 </body>
 </html>
