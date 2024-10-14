@@ -32,6 +32,8 @@
     text-transform: uppercase;
   }
 
+/* --------------------------------------------------------------------------------------------- */
+
   /* CSS to the header section */
   .header{
     position: fixed;
@@ -68,9 +70,10 @@
   #menu-btn{
     display: none;
   }/* ends */
+
+/* --------------------------------------------------------------------------------------------- */  
   
-  
-  /* CSS to home section */
+/* CSS to home section */
   .home{
     min-height: 100vh;
     display: flex;
@@ -113,6 +116,8 @@
     padding: 0.5px;
   }/* end */
 
+/* --------------------------------------------------------------------------------------------- */
+
  /* CSS to the Weekly schedule section */ 
   table, th, td{
     border: 4px solid gray;
@@ -132,8 +137,7 @@ td{
 
 /* --------------------------------------------------------------------------------------------- */  
   
-  
-  /* CSS to the teacher section */
+/* CSS to the teacher section */
   .teacher .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -201,7 +205,7 @@ td{
     margin-top: 10px; 
     font-size: 15px; }
 
-p {
+  p {
     font-size: 16px; 
     color: #333;}
 
@@ -212,15 +216,14 @@ p {
     background-color: #f9ba60; 
     color: white;
     text-decoration: none;
-    border-radius: 5px; 
-}
-.more-info-button:hover {
+    border-radius: 5px; }
+
+  .more-info-button:hover {
     background-color: #f6caa1;}/* end */
   
-  /* end */
+/* --------------------------------------------------------------------------------------------- */  
   
-  
-  /* CSS of the gallery section */
+/* CSS of the gallery section */
   .gallery .gallery-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -296,7 +299,7 @@ p {
       padding: 30px;}
 
     table {
-        width: 50%; }  
+        width: 100%; }  
   
   }
   
@@ -327,7 +330,7 @@ p {
       font-size: 45px;}
 
       table {
-        width: 100%; }  
+        width: 50%; }  
   }
   
   @media (max-width:450px){
@@ -335,4 +338,6 @@ p {
       font-size: 50%;}
     .home .content h3{
       font-size: 35px;}
+      table {
+        width: 20%;}
   }/* end */
