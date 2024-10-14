@@ -31,24 +31,7 @@
     color: #f9ba60;
     text-transform: uppercase;
   }
-  
-  .btn{
-    font-size: 17px;
-    margin-top: 10px;
-    display: inline-block;
-    padding: 10px 15px;
-    background: none;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 2px solid #f9ba60;
-    color: #f9ba60;
-  }
-  
-  .btn:hover{
-    background: #f9ba60;
-    color: #fff;
-  }
-  
+
   /* CSS to the header section */
   .header{
     position: fixed;
@@ -164,6 +147,61 @@
   
   
   /* Annoucment */
+  .Annoucment .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;}
+  
+  .Annoucment .box-container .nwe-box{
+      background: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 1.5px 1px rgba(0,0,0,.1);
+      border-radius: 20px;
+      background-color: rgb(248, 245, 247);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+      border: 2px solid #991a1a;}
+
+  .Annoucment .box-container .box{
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 1.5px 1px rgba(0,0,0,.1);
+    border-radius: 20px;
+    background-color: rgb(248, 245, 247);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #4CAF50;}
+
+    .new-announcement {
+      color: red; /* Red color for the announcement title */
+      font-size: 24px; /* Larger font size */
+      margin-bottom: 10px; /* Space below the title */
+  }
+
+  h3 {
+    margin-top: 10px; /* Space above the subheading */
+    font-size: 15px; /* Font size for the subheading */
+}
+
+p {
+    font-size: 16px; /* Font size for paragraph text */
+    color: #333; /* Dark gray color for text */
+}
+
+  .more-info-button {
+    display: inline-block; 
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    background-color: #f9ba60; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+.more-info-button:hover {
+    background-color: #f6caa1;}
+    
+
+  
   /* end */
   
   
