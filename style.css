@@ -5,10 +5,7 @@
     transition: all .2s linear;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: capitalize;
-    
-    
-  }
+    text-transform: capitalize;}
   
   html{
     font-size: 62.5%;
@@ -52,7 +49,7 @@
     color: #fff;
   }
   
-  /* header */
+  /* CSS to the header section */
   .header{
     position: fixed;
     top: 0; 
@@ -87,10 +84,10 @@
   
   #menu-btn{
     display: none;
-  }/* header ends */
+  }/* ends */
   
   
-  /* home */
+  /* CSS to home section */
   .home{
     min-height: 100vh;
     display: flex;
@@ -98,7 +95,7 @@
     gap: 15px;
     align-items: center;
     position: relative;
-    background-image: url(background\ k.jpg);
+    background-image: url(background\ k.jpg); /* Add the background image */
     background-position: center;
     background-size: cover;
   }
@@ -108,16 +105,16 @@
     padding-top: 65px;
   }
   
-  .home .content h3{
+  .home .content h3{ /* Name of our Kindergarten */
     font-size: 60px;
     color: rgba(5, 32, 57, 0.936);
   }
   
-  .home .content h3 span{
+  .home .content h3 span{ /* To have another color in the Name of our Kindergarten we use span*/
     color: #f9ba60;
   }
   
-  .home .content p{
+  .home .content p{ /* Welcome message */
     font-size: 17px;
     color: #666;
     line-height: 1.8;
@@ -134,21 +131,19 @@
   }/* end */
   
   
-  /* teacher */
+  /* CSS to the teacher section */
   .teacher .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
-  }
+    gap: 15px;}
   
   .teacher .box-container .box{
     background: #fff;
     padding: 30px 20px;
     text-align: center;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    box-shadow: 1.5px 1px rgba(0,0,0,.1);
     border-radius: 20px;
-    background-color: rgb(249, 14, 143);
-  }
+    background-color: rgb(249, 14, 143);}
   
   .teacher .box-container .box img{
     height: 180px;
@@ -156,12 +151,12 @@
     border-radius: 20px;
   }
   
-  .teacher .box-container .box h3{
+  .teacher .box-container .box h3{  /* Name of our teachers */
     font-size: 25px;
     color: rgb(222, 185, 76);
   }
   
-  .teacher .box-container .box p{
+  .teacher .box-container .box p{ /* The informations of our teachers */
     font-size: 17px;
     color: #666;
     margin-bottom: 10px;
@@ -172,100 +167,86 @@
   /* end */
   
   
-  /* gallery */
+  /* CSS of the gallery section */
   .gallery .gallery-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
+    gap: 20px;}
   
-  .gallery .gallery-container img{
+  .gallery .gallery-container img{ /* Add the imges gallery of class activities */
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 50px;
-  }
+    border-radius: 50px;}
   /* end */
   
   
-  /* footer */
+  /* CSS of footer */
   .footer{
-    background: rgba(247, 156, 59, 0.467);
-  }
+    background: rgba(247, 156, 59, 0.467);} /* Color of the background of the footer */
   
   .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25px,1fr));
-    gap: 5px;
-  }
+    gap: 5px;}
   
   .footer .box-container .box h3{
     font-size: 25px;
     color: rgb(235, 149, 38);
-    padding: 25px 0;
-  }
+    padding: 25px 0;}
   
   .footer .box-container .box p{
     font-size: 15px;
     color: #fff;
     padding: 10px 0;
-    line-height: 2;
-  }
+    line-height: 2;}
   
   .footer .box-container .box a{
     display: block;
     font-size: 15px;
     color: #fff;
-    padding: 10px 0;
-  }
+    padding: 10px 0;}
   
   .footer .box-container .box a:hover{
-    color: #f9ba60;
-  }
+    color: #f9ba60;}
   
   .footer .box-container .box a i{
     padding-right: 15px;
-    color: #f9ba60;
-  }
+    color: #f9ba60;}
   
-  .footer .credit{
+  .footer .end{
     margin-top: 25px;
     padding: 10px;
     padding-top: 20px;
     border-top: 1px solid rgba(0,0,0,.3);
     text-align: center;
     color: #fff;
-    font-size: 20px;
-  }
+    font-size: 20px;}
   
-  .footer .credit span{
+  .footer .end span{
     color: #f9ba60;
   }/* end */
   
   
   
-  /* media query */
+  /* media query to responsive for both mobile and desktop views */
   @media (max-width:991px){
   
     html{
-      font-size: 55%;
-    }
+      font-size: 55%;}
   
     .header{
-      padding: 20px 30px;
-    }
+      padding: 20px 30px;}
   
     section{
-      padding: 30px;
-    }
+      padding: 30px;}
   
   }
   
   @media (max-width:768px){
   
     #menu-btn{
-      display: inline-block;
-    }
+      display: inline-block;}
   
     .header .navbar{
       position: absolute;
@@ -274,31 +255,24 @@
       right: -110%;
       box-shadow: 5px 15px rgba(0,0,0,.1);
       border-radius: 5px;
-      background: #fff;
-    }
+      background: #fff;}
   
     .header .navbar.active{
       right: 20px;
-      transition: .4s linear;
-    }
+      transition: .4s linear;}
   
     .header .navbar a{
       font-size: 20px;
       margin: 20px 25px;
-      display: block;
-    }
+      display: block;}
   
     .home .content h3{
-      font-size: 45px;
-    }
-  
+      font-size: 45px;}
   }
   
   @media (max-width:450px){
     html{
-      font-size: 50%;
-    }
+      font-size: 50%;}
     .home .content h3{
-      font-size: 35px;
-    }
-  }
+      font-size: 35px;}
+  }/* end */
