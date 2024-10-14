@@ -254,18 +254,18 @@ td{
   
   .footer .box-container .box p{
     font-size: 15px;
-    color: #fff;
+    color: #910fa0;
     padding: 10px 0;
     line-height: 2;}
   
   .footer .box-container .box a{
     display: block;
     font-size: 15px;
-    color: #fff;
+    color: #910fa0;
     padding: 10px 0;}
   
   .footer .box-container .box a:hover{
-    color: #f9ba60;}
+    color: #e99df5;}
   
   .footer .box-container .box a i{
     padding-right: 15px;
@@ -277,11 +277,11 @@ td{
     padding-top: 20px;
     border-top: 1px solid rgba(0,0,0,.3);
     text-align: center;
-    color: #fff;
+    color: #910fa0;
     font-size: 20px;}
   
   .footer .end span{
-    color: #f9ba60;
+    color: #f99c1a;
   }/* end */
   
 /* --------------------------------------------------------------------------------------------- */   
