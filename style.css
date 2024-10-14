@@ -112,6 +112,25 @@
     width: 90%;
     padding: 0.5px;
   }/* end */
+
+ /* CSS to the Weekly schedule section */ 
+  table, th, td{
+    border: 4px solid gray;
+    border-style: groove;
+    border-collapse: collapse;
+    margin: auto;
+    width: 750px;
+    height: 80px;
+    font-size: 20px;
+    background-color: rgb(126, 227, 199);
+
+}
+
+td{
+    padding: 10px; 
+    text-align: center;}/* end */
+
+/* --------------------------------------------------------------------------------------------- */  
   
   
   /* CSS to the teacher section */
@@ -145,8 +164,9 @@
     margin-bottom: 10px;
   }/* end */
   
-  
-  /* CSS of the Annoucment section*/
+/* --------------------------------------------------------------------------------------------- */   
+
+/* CSS of the Annoucment section*/
   .Annoucment .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -195,14 +215,11 @@ p {
     border-radius: 5px; 
 }
 .more-info-button:hover {
-    background-color: #f6caa1;}
-    
+    background-color: #f6caa1;}/* end */
+  
+/* --------------------------------------------------------------------------------------------- */     
 
-  
-  /* end */
-  
-  
-  /* CSS of the gallery section */
+/* CSS of the gallery section */
   .gallery .gallery-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -215,8 +232,9 @@ p {
     border-radius: 50px;}
   /* end */
   
-  
-  /* CSS of footer */
+/* --------------------------------------------------------------------------------------------- */   
+
+/* CSS of footer */
   .footer{
     background: rgba(247, 156, 59, 0.467);} /* Color of the background of the footer */
   
@@ -262,7 +280,7 @@ p {
     color: #f9ba60;
   }/* end */
   
-  
+/* --------------------------------------------------------------------------------------------- */   
   
   /* media query to responsive for both mobile and desktop views */
   @media (max-width:991px){
@@ -275,6 +293,9 @@ p {
   
     section{
       padding: 30px;}
+
+    table {
+        width: 50%; }  
   
   }
   
@@ -303,6 +324,9 @@ p {
   
     .home .content h3{
       font-size: 45px;}
+
+      table {
+        width: 100%; }  
   }
   
   @media (max-width:450px){
@@ -310,4 +334,6 @@ p {
       font-size: 50%;}
     .home .content h3{
       font-size: 35px;}
+      table {
+        width: 10%; }  
   }/* end */
