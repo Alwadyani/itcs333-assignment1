@@ -217,9 +217,10 @@ p {
 .more-info-button:hover {
     background-color: #f6caa1;}/* end */
   
-/* --------------------------------------------------------------------------------------------- */     
-
-/* CSS of the gallery section */
+  /* end */
+  
+  
+  /* CSS of the gallery section */
   .gallery .gallery-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -334,6 +335,4 @@ p {
       font-size: 50%;}
     .home .content h3{
       font-size: 35px;}
-      table {
-        width: 10%; }  
   }/* end */
