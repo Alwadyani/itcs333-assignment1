@@ -146,7 +146,7 @@
   }/* end */
   
   
-  /* Annoucment */
+  /* CSS of the Annoucment section*/
   .Annoucment .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -173,20 +173,17 @@
     border: 2px solid #4CAF50;}
 
     .new-announcement {
-      color: red; /* Red color for the announcement title */
-      font-size: 24px; /* Larger font size */
-      margin-bottom: 10px; /* Space below the title */
-  }
+      color: red; /* Red color for the new announcement title */
+      font-size: 24px; 
+      margin-bottom: 10px;}
 
   h3 {
-    margin-top: 10px; /* Space above the subheading */
-    font-size: 15px; /* Font size for the subheading */
-}
+    margin-top: 10px; 
+    font-size: 15px; }
 
 p {
-    font-size: 16px; /* Font size for paragraph text */
-    color: #333; /* Dark gray color for text */
-}
+    font-size: 16px; 
+    color: #333;}
 
   .more-info-button {
     display: inline-block; 
